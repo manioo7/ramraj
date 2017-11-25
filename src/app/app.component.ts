@@ -1,17 +1,16 @@
 import { Component } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'app mani!';
-clickMessage  = 'aasdas';
+  public title = 'app mani!';
+  public clickMessage  = '';
 
-	onclickMe(){
-	this.clickMessage  ="I am here ";
-
+	public onClickMe(){
+	  this.clickMessage  ="I am here ";
 	}
 }
 
