@@ -1,5 +1,8 @@
 <h1>
   {{title}} 
 </h1>
-<button (click)="onClickMe()">Hello</button>
+<button class="dummy" (click)="onClickMe()">Hello</button>
 <span> {{clickMessage}} </span>  
+<hr>
+<h2  *ngFor="let  n of names "> {{n}}</h2>
+
